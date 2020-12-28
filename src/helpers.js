@@ -9,5 +9,7 @@ function remove(items, item) {
 		return undefined;
 	}
 	items.splice(index, 1);
-	return item;
+	return items;
 }
+
+export { choice, remove };
